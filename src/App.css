@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    padding-top: 70px;
+    background: #f0f2f5;
+}
+.container{
+    width: 100%;
+}
+.Fbimg{
+    height: 250px;
+    width: 250px;
+    padding: 112px 0 0px 0;
+
+}
+.st_heading{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+input ._5url{  
+    font-family: inherit;
+ 
+}
+#colFormLabelLg{
+    background: none;
+    border: 1px solid #dddfe2;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1d2129;
+    height: 22px;
+    box-shadow: none;
+    float: left;
+    font-size: 17px;
+      
+    width: 350px;
+    border-radius: 6px;
+    vertical-align: middle;
+    margin: 10px;
+
+}
+ /* ._5url{
+    background: #FFFFFF  repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+} */
+#colFormLabelLg:focus{
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+    
+}
+.centerline{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 18px 16px;
+    text-align: center;
+}
+.Fbutton{
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+       width: 200px;
+       height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    cursor: pointer;
+    font-weight: bold;
+    margin:  0 0 0 100px ;
+    /* background: #42b72a; */
+    background: #42b72a ;
+}
+.Fbutton:hover{
+    background-color: rgb(12, 212, 12);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#reg_pages_msg ._58mk{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* #reg_pages_msg ._8esh{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+} */
+.card{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body{
+    align-items:center;
+    padding: 0 0 10px 20px;
 }
